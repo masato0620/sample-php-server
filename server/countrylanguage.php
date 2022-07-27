@@ -1,7 +1,7 @@
 <?php
 
 //MySQLコネクタを生成
-$link = mysqli_connect("localhost","root","","world");
+$link = mysqli_connect("db","root","root","world");
 //DBコネクションを生成
 if(!$link){
     die("コネクションエラー");
